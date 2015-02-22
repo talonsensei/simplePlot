@@ -25,8 +25,29 @@ mode        : selfcontained # {standalone, draft}
 
 --- .class #id 
 
-## Demo of simplePlot
-
-http://talonsensei.shinyapps.io/simplePlot
+## Example of Input file
+|Days|Antigen1|Antigen2|
+|--- |:------:| ------:|
+|1   |12      |5       |
+|2   |24      |10      |
+|3   |33      |15      |
+|4   |45      |20      |
 
 --- .class #id
+
+## Example of the Output graph
+```{r echo=FALSE } 
+v1 = c(1,2,3,4)
+v2 = c(12,24,33,45)
+v3= c(5,10,15,20)
+a=data.frame(v1,v2,v3)
+plot(a$v2~a$v1, xlab="Days", ylab="Antigen values", main="Antigen values vs. Days")
+points(a$v3, col=2)
+```
+
+--- .class #id
+
+## Demo of simplePlot
+Please feel free to follow the link below and give it a try!
+
+http://talonsensei.shinyapps.io/simplePlot

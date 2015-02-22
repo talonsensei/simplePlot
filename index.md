@@ -25,8 +25,22 @@ mode        : selfcontained # {standalone, draft}
 
 --- .class #id 
 
-## Demo of simplePlot
-
-http://talonsensei.shinyapps.io/simplePlot
+## Example of Input file
+|Days|Antigen1|Antigen2|
+|--- |:------:| ------:|
+|1   |12      |5       |
+|2   |24      |10      |
+|3   |33      |15      |
+|4   |45      |20      |
 
 --- .class #id
+
+## Example of the Output graph
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
+
+--- .class #id
+
+## Demo of simplePlot
+Please feel free to follow the link below and give it a try!
+
+http://talonsensei.shinyapps.io/simplePlot
